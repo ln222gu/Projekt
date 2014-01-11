@@ -22,7 +22,18 @@ meta.foundation-mq-xlarge {
 meta.foundation-mq-xxlarge {
   font-family: "/only screen and (min-width:120.063em)/";
   width: 120.063em; }
+  
+.active {
+    background-color: #F1684E;
+}
 
+.servertitle {
+    color: #F1684E;
+}
+
+.nolist {
+    list-style: none;
+}
 *,
 *:before,
 *:after {
@@ -1607,10 +1618,10 @@ meta.foundation-mq-topbar {
     background: #272727;
     color: white; }
   .top-bar-section ul li.active > a {
-    background: #008cba;
+    background: #F1684E;
     color: white; }
     .top-bar-section ul li.active > a:hover {
-      background: #0079a1; }
+      background: #C2543F; }
   .top-bar-section .has-form {
     padding: 15px; }
   .top-bar-section .has-dropdown {
@@ -1713,7 +1724,7 @@ meta.foundation-mq-topbar {
       line-height: 45px;
       background: #333333; }
       .top-bar-section li a:not(.button):hover {
-        background: #272727; }
+        background: #C2543F; }
     .top-bar-section .has-dropdown > a {
       padding-right: 35px !important; }
       .top-bar-section .has-dropdown > a:after {
@@ -1912,7 +1923,7 @@ button, .button {
   padding-left: 2rem;
   font-size: 1rem;
   /*     @else                            { font-size: $padding - rem-calc(2); } */
-  background-color: #008cba;
+  background-color: #F1684E;
   border-color: #0079a1;
   color: white;
   -webkit-transition: background-color 300ms ease-out;
@@ -1924,7 +1935,7 @@ button, .button {
   border: none;
   font-weight: normal !important; }
   button:hover, button:focus, .button:hover, .button:focus {
-    background-color: #0079a1; }
+    background-color: #C2543F; }
   button:hover, button:focus, .button:hover, .button:focus {
     color: white; }
   button.secondary, .button.secondary {
@@ -2166,7 +2177,7 @@ button, .button {
 .panel {
   border-style: solid;
   border-width: 1px;
-  border-color: #d9d9d9;
+  border-color: #1B1B1B;
   margin-bottom: 1.25rem;
   padding: 1.25rem;
   background: #f2f2f2; }
@@ -2184,10 +2195,10 @@ button, .button {
   .panel.callout {
     border-style: solid;
     border-width: 1px;
-    border-color: #baeeff;
+    border-color: #F1684E;
     margin-bottom: 1.25rem;
     padding: 1.25rem;
-    background: #edfbff;
+    background: #FFE7E3;
     }
     .panel.callout > :first-child {
       margin-top: 0; }
@@ -2206,7 +2217,8 @@ button, .button {
     -webkit-border-radius: 3px;
     border-radius: 3px; }
 
-.dropdown.button {
+.dropdown.
+{
   position: relative;
   padding-right: 3.5625rem; }
   .dropdown.button:before {
